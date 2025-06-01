@@ -15,8 +15,11 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_beryllium.mk
+    $(LOCAL_DIR)/twrp_beryllium.mk \
+    $(LOCAL_DIR)/omni_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_beryllium-userdebug \
-    twrp_beryllium-eng
+    twrp_beryllium-eng \
+    omni_beryllium-userdebug \
+    omni_beryllium-eng
